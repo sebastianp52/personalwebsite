@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap");
+body {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#d4d4d4), to(#f5f8ff));
+  background: linear-gradient(to right, #d4d4d4, #f5f8ff);
+  margin: 0;
+  font-family: "Poppins", arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container {
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#42454b));
+  background: linear-gradient(to right, #2c2e30, #42454b);
+}
+
+.nav-container1 {
+  display: none;
+}
+
+nav a {
+  position: relative;
+  font-size: 0.875rem;
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4px;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0;
+  bottom: -30px;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+
+nav a:hover {
+  color: #6effe2;
+}
+
+nav a:hover::before {
+  opacity: 1;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #6effe2;
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.transitionbtn {
+  z-index: 10;
+  position: fixed;
+  right: 50px;
+  bottom: 25px;
+  visibility: visible;
+}
+
+.transitionbtn--scrolled1 {
+  right: 500px;
+}
+
+.social-header {
+  display: none;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#42454b));
+  background: linear-gradient(to right, #2c2e30, #42454b);
+  height: 20vh;
+  text-align: center;
+}
+
+footer .int {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 2em;
+}
+
+footer .button2 {
+  visibility: visible;
+  background: white;
+  font-size: 0.9em;
+  border: 0;
+  border-radius: 25px;
+  height: 1.7em;
+  cursor: pointer;
+  color: #555454;
+  padding: 0.7em 1em;
+}
+
+footer .button2:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#222324));
+  background: linear-gradient(to right, #2c2e30, #222324);
+  color: #6effe2;
+}
+
+footer .button2:hover::before {
+  opacity: 1;
+}
+
+section {
+  height: 85vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 20px #00000010;
+          box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 50%;
+  margin-left: 25%;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#222324));
+  background: linear-gradient(to right, #2c2e30, #222324);
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: #9b9b9b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+button[type="submit"]:hover {
+  background: #d8d8d8;
+  color: #2c2c2c;
+}
+
+button[type="submit"]:hover::before {
+  opacity: 1;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: #d3fa99;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: #fa815c;
+  color: white;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .nav-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+  }
+  .social-header {
+    display: block;
+    padding: 2em 4em 2em 0;
+  }
+  .social-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 15em;
+    margin-left: 3em;
+  }
+  .social-header ul img {
+    width: 28%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header {
+    padding: 2em 2em 2em 20em;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  nav a {
+    position: relative;
+    font-size: 0.775rem;
+  }
+  .logo {
+    color: #6effe2;
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=hireme.css.map */

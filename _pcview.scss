@@ -1,0 +1,162 @@
+@media only screen and (min-width: 800px) {
+    .featured,
+    .portofolio {
+        text-align: left;
+    }
+
+    .featured,
+    .portofolio-container {
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+
+    .left,
+    .portofolio-left {
+        display: grid;
+        place-content: center;
+        padding-bottom: 5em;
+    }
+
+    .right {
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+    .skills {
+        margin-top: -7em;
+        margin-bottom: -2em;
+    }
+    .skills-container ul {
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2em;
+        opacity: 88%;
+    }
+
+    .portofolio {
+        padding-top: 7em;
+    }
+
+    .portofolio-container img {
+        margin-left: 3em;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .hero {
+        height: 90vh;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: 66% auto;
+
+        header {
+            background: linear-gradient(to right, #2c2e30, #42454b);
+        }
+    }
+
+    header {
+        padding: 2em 2em 2em 4em;
+    }
+
+    .social-header {
+        padding: 2em 4em 2em 0;
+    }
+
+    section {
+        padding: 4em;
+    }
+
+    .social-header {
+        display: block;
+        background: linear-gradient(to right, #d4d4d4, #f5f8ff);
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 15em;
+            margin-left: 3em;
+
+            img {
+                width: 28%;
+            }
+        }
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+
+        .rightside {
+            display: block;
+            color: black;
+
+            .hero-design {
+                z-index: 1;
+                display: unset;
+
+                margin-left: -100%;
+                width: 70%;
+            }
+        }
+
+        .content {
+            background-image: url("images/telfaded.svg"), linear-gradient(to right, #232526, #414345);
+            padding: 6em 8em 6em 4em;
+            text-align: left;
+
+            h1 {
+                font-size: 3em;
+                line-height: 1.2em;
+            }
+        }
+    }
+
+    .meet {
+        margin: unset;
+    }
+
+    .portofolio img {
+        float: right;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    header {
+        padding: 2em 2em 2em 10em;
+    }
+
+    .social-header {
+        padding: 2em 10em 2em 0;
+    }
+
+    section {
+        padding: 10em 10em 4em 10em;
+    }
+
+    .hero .content {
+        padding: 6em 8em 6em 10em;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    header {
+        padding: 2em 2em 2em 20em;
+    }
+
+    .social-header {
+        padding: 2em 20em 2em 0;
+    }
+
+    section {
+        padding: 6em 20em 4em 20em;
+    }
+
+    .hero .content {
+        padding: 9em 20em 6em 20em;
+    }
+}

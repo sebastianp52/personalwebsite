@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap");
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #d4d4d4, #f5f8ff);
+    margin: 0;
+    font-family: "Poppins", arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-container {
+    background: linear-gradient(to right, #2c2e30, #42454b);
+}
+
+nav {
+    a {
+        position: relative;
+        font-size: 0.875rem;
+        color: white;
+        transition: color 300ms ease-in-out;
+
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 4px;
+            left: 0;
+            right: 0;
+            background: white;
+            opacity: 0;
+            bottom: -30px;
+            transition: opacity 300ms ease-in;
+        }
+
+        &:hover {
+            color: #6effe2;
+
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.rightside {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        color: #6effe2;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+.social-header,
+.hero-design {
+    display: none;
+}
+
+.line3 {
+    display: inline-flex;
+
+    .scroll {
+        width: 30px;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+
+    .button1 {
+        margin-top: 2.5em;
+        margin-left: 3em;
+        background: white;
+        border: 0;
+        border-radius: 25px;
+        height: 1.7em;
+        cursor: pointer;
+        color: rgb(85, 84, 84);
+        padding: 0.7em 1em;
+
+        &:hover {
+            background: linear-gradient(to right, #2c2e30, #222324);
+            color: #6effe2;
+
+            &::before {
+                opacity: 1;
+            }
+        }
+
+        &--scrolled {
+            visibility: hidden;
+        }
+    }
+}
+
+.transitionbtn {
+    z-index: 10;
+    position: fixed;
+    right: 50px;
+    bottom: 25px;
+    visibility: hidden;
+
+    &--scrolled1 {
+        visibility: visible;
+    }
+}
+
+.hero {
+    background-image: url("images/telfaded.svg"), linear-gradient(to right, #232526, #414345);
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+.meet {
+    margin: 0 auto;
+    width: 200px;
+    font-weight: bold;
+    color: #6effe2;
+
+    span {
+        margin-top: 1em;
+        margin-right: 0.5em;
+    }
+}
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.featured {
+    position: relative;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6e00ff;
+    letter-spacing: 0.2em;
+    font-size: 0.85em;
+}
+
+.featured-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: -0.4em;
+    display: block;
+}
+
+.featured-desc {
+    color: #3b3b3b;
+    margin-bottom: 3em;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.imgfeatured img {
+    border-radius: 1em;
+}
+
+.skills {
+    background: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+.skills-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.icon-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+
+    &.one {
+        width: 70px;
+    }
+
+    &.two {
+        width: 150px;
+    }
+
+    &.three {
+        width: 70px;
+    }
+}
+
+.skill-title {
+    font-weight: bold;
+}
+
+.featured-desc {
+    margin-bottom: 2em;
+}
+
+.portofolio-container a img {
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+footer {
+    display: block;
+    background: linear-gradient(to right, #2c2e30, #42454b);
+    height: 20vh;
+    text-align: center;
+
+    .int {
+        font-weight: 700;
+        font-size: 1.2em;
+        color: white;
+        padding-top: 2em;
+    }
+
+    .button2 {
+        visibility: visible;
+        background: white;
+        font-size: 0.9em;
+        border: 0;
+        border-radius: 25px;
+        height: 1.7em;
+        cursor: pointer;
+        color: rgb(85, 84, 84);
+        padding: 0.7em 1em;
+
+        &:hover {
+            background: linear-gradient(to right, #2c2e30, #222324);
+            color: #6effe2;
+
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.circle {
+    animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+    from {
+        transform: translate(753px, 584px);
+        z-index: 5;
+    }
+
+    to {
+        transform: translate(753px, 600px);
+    }
+}

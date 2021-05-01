@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me</title>
+    <link rel="stylesheet" href="hireme.css">
+</head>
+
+<body>
+
+    <div class="nav-container" id="navc">
+        <header>
+            <a href="index.html" class="logo">Pascale Sebastian</a>
+            <nav>
+                <ul>
+                    <li><a href="mywork.html" class="menu">my work</a></li>
+                    <li><a href="myskills.html" class="menu">my skills</a></li>
+                    <li><a href="hireme.html" class="menu">hire me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <div class="sheaderimg">
+                    <li><a href="#"><img src="images/bee.png" alt=""></a></li>
+                </div>
+                <div class="sheaderimg">
+                    <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                </div>
+                <div class="sheaderimg">
+                    <li><a href="#"><img src="images/lnkd.png" alt=""></a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <form action="https://formspree.io/f/mknkojpa" method="POST" id="my-form">
+
+                <div class="form-group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+
+                <div class="form-group">
+                    <label for="latsName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="massage">Message</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="status"></div>
+    </section>
+
+    <footer>
+
+        <p class="int">Interested in working with me?</p>
+        <a href="hireme.html" class="button2">Talk to me </a>
+
+    </footer>
+
+    <script src="jshireme.js"></script>
+
+</body>
+
+</html>

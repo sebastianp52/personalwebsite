@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="732" height="679" viewBox="0 0 732 679">
+  <g id="Group_23" data-name="Group 23" transform="translate(-213 -663.434)">
+    <g id="Group_20" data-name="Group 20" transform="translate(213 924.145)" opacity="0.2">
+      <g id="Group_5" data-name="Group 5" transform="translate(0 0)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="96" height="85" rx="19" transform="translate(193 0.289)" fill="#8e2de2"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="97" height="84" rx="19" transform="translate(96 85.289)" fill="#8e2de2"/>
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="97" height="84" rx="19" transform="translate(289 85.289)" fill="#8e2de2" opacity="0.55"/>
+        <rect id="Rectangle_8" data-name="Rectangle 8" width="96" height="85" rx="19" transform="translate(193 169.289)" fill="#8e2de2"/>
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="96" height="85" rx="19" transform="translate(0 169.289)" fill="#8e2de2" opacity="0.79"/>
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="97" height="85" rx="19" transform="translate(96 254.289)" fill="#8e2de2"/>
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="40" cy="40" r="40" transform="translate(105 172.289)" fill="#8e2de2"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="40" cy="40" r="40" transform="translate(201 87.289)" fill="#8e2de2"/>
+      </g>
+    </g>
+    <g id="Group_21" data-name="Group 21" transform="translate(559.208 1002.779)" opacity="0.2">
+      <g id="Group_5-2" data-name="Group 5" transform="translate(0 0)">
+        <rect id="Rectangle_5-2" data-name="Rectangle 5" width="98" height="86" rx="19" transform="translate(191.792 -0.345)" fill="#8e2de2"/>
+        <rect id="Rectangle_6-2" data-name="Rectangle 6" width="96" height="84" rx="19" transform="translate(95.792 85.655)" fill="#8e2de2"/>
+        <rect id="Rectangle_7-2" data-name="Rectangle 7" width="96" height="84" rx="19" transform="translate(289.792 85.655)" fill="#8e2de2" opacity="0.55"/>
+        <rect id="Rectangle_8-2" data-name="Rectangle 8" width="98" height="85" rx="19" transform="translate(191.792 169.655)" fill="#8e2de2"/>
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" width="96" height="85" rx="19" transform="translate(-0.208 169.655)" fill="#8e2de2" opacity="0.79"/>
+        <rect id="Rectangle_10-2" data-name="Rectangle 10" width="96" height="85" rx="19" transform="translate(95.792 254.655)" fill="#8e2de2"/>
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="40" cy="40" r="40" transform="translate(104.792 172.655)" fill="#8e2de2"/>
+        <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="40" cy="39.5" rx="40" ry="39.5" transform="translate(200.792 87.655)" fill="#8e2de2"/>
+      </g>
+    </g>
+    <g id="Group_22" data-name="Group 22" transform="translate(531.905 663.124)" opacity="0.2">
+      <g id="Group_5-3" data-name="Group 5" transform="translate(0 0)">
+        <rect id="Rectangle_5-3" data-name="Rectangle 5" width="96" height="85" rx="19" transform="translate(193.095 0.311)" fill="#8e2de2"/>
+        <rect id="Rectangle_6-3" data-name="Rectangle 6" width="97" height="84" rx="19" transform="translate(96.095 85.311)" fill="#8e2de2"/>
+        <rect id="Rectangle_7-3" data-name="Rectangle 7" width="96" height="84" rx="19" transform="translate(289.095 85.311)" fill="#8e2de2" opacity="0.55"/>
+        <rect id="Rectangle_8-3" data-name="Rectangle 8" width="96" height="85" rx="19" transform="translate(193.095 169.311)" fill="#8e2de2"/>
+        <rect id="Rectangle_9-3" data-name="Rectangle 9" width="96" height="85" rx="19" transform="translate(0.095 169.311)" fill="#8e2de2" opacity="0.79"/>
+        <rect id="Rectangle_10-3" data-name="Rectangle 10" width="97" height="85" rx="19" transform="translate(96.095 254.311)" fill="#8e2de2"/>
+        <ellipse id="Ellipse_1-3" data-name="Ellipse 1" cx="39.5" cy="40" rx="39.5" ry="40" transform="translate(105.095 172.311)" fill="#8e2de2"/>
+        <ellipse id="Ellipse_2-3" data-name="Ellipse 2" cx="39.5" cy="40" rx="39.5" ry="40" transform="translate(202.095 87.311)" fill="#8e2de2"/>
+      </g>
+    </g>
+  </g>
+</svg>

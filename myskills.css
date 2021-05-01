@@ -1,0 +1,729 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap");
+body {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#d4d4d4), to(#f5f8ff));
+  background: linear-gradient(to right, #d4d4d4, #f5f8ff);
+  margin: 0;
+  font-family: "Poppins", arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#42454b));
+  background: linear-gradient(to right, #2c2e30, #42454b);
+}
+
+nav a {
+  position: relative;
+  font-size: 0.875rem;
+  color: white;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4px;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0;
+  bottom: -30px;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+
+nav a:hover {
+  color: #6effe2;
+}
+
+nav a:hover::before {
+  opacity: 1;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #6effe2;
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.transitionbtn {
+  z-index: 10;
+  position: fixed;
+  right: 50px;
+  bottom: 25px;
+  visibility: visible;
+}
+
+.transitionbtn--scrolled1 {
+  right: 500px;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.leftbig {
+  background: -webkit-gradient(linear, left top, right top, from(#232526), to(#414345));
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+.profile {
+  background: -webkit-gradient(linear, left top, right top, from(#3a3d3f), to(#4d4f52));
+  background: linear-gradient(to right, #3a3d3f, #4d4f52);
+  color: #9c9c9c;
+  margin: 2em;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile h4 {
+  color: #6effe2;
+}
+
+.profile .right {
+  text-align: center;
+  padding: 1.2em;
+  width: 50%;
+}
+
+.profile .right p {
+  margin-bottom: -1em;
+  text-align: center;
+}
+
+.profile .img1 {
+  padding: 2em;
+  width: 120px;
+}
+
+.restul {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#42454b));
+  background: linear-gradient(to right, #2c2e30, #42454b);
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.despre {
+  color: #7c7c7c;
+  margin: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+}
+
+.despre h3 {
+  font-size: 15px;
+  color: #6effe2;
+}
+
+.despre p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.outerimg {
+  margin: 2em;
+  padding: 0.1em;
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#1f2024));
+  background: linear-gradient(to right, #2c2e30, #1f2024);
+}
+
+.date {
+  color: #7c7c7c;
+  margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  text-align: left;
+}
+
+.date .dated {
+  text-align: right;
+  color: #7c7c7c;
+  font-weight: 300;
+  width: 100%;
+}
+
+.contact {
+  color: #7c7c7c;
+  margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  text-align: left;
+  font-size: 13px;
+}
+
+.contact .contactright {
+  text-align: right;
+  width: 100%;
+}
+
+.languages {
+  color: #7c7c7c;
+  margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  text-align: left;
+}
+
+.languages .languagesr {
+  text-align: right;
+  width: 100%;
+}
+
+.languages .languagesr label {
+  padding-left: 1em;
+}
+
+.languages .languagesr progress {
+  -webkit-appearance: none;
+  height: 5px;
+  width: 35%;
+  overflow: hidden;
+  color: white;
+  vertical-align: 0.1em;
+}
+
+.languages .languagesr progress::-webkit-progress-bar {
+  background: white;
+}
+
+.languages .languagesr progress::-webkit-progress-value {
+  background: #6effe2;
+}
+
+.programmingl {
+  color: #7c7c7c;
+  margin: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  text-align: left;
+}
+
+.programmingr {
+  text-align: right;
+  color: #6effe2;
+  width: 100%;
+}
+
+.rightbig {
+  background: -webkit-gradient(linear, left top, right top, from(#232526), to(#414345));
+  background: linear-gradient(to right, #232526, #414345);
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  padding: 2em;
+  text-align: center;
+}
+
+.rightbig .bg {
+  height: 35vh;
+  background: url("images/bgpic1.jpg");
+  background-size: cover;
+}
+
+.rightbig .bg .insidebg {
+  display: block;
+  background: url("images/bgpic2.jpg");
+  height: 28vh;
+  background-size: cover;
+  margin: 2em;
+}
+
+.rightbig .bg .insidebg h1 {
+  padding-top: 1.5em;
+}
+
+.rightbig .bg .insidebg p {
+  width: 200px;
+  font-size: 1.1em;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  -webkit-animation: typing 3.5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+.rightbig .bg .insidebg .buttondiv {
+  margin-top: 3em;
+}
+
+.rightbig .bg .insidebg .buttondiv .button1 {
+  background: white;
+  margin: 2em;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #888888;
+  padding: 0.4em 0.8em;
+}
+
+.rightbig .bg .insidebg .buttondiv .button1:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#222324));
+  background: linear-gradient(to right, #2c2e30, #222324);
+  color: #6effe2;
+}
+
+.rightbig .bg .insidebg .buttondiv .button1:hover::before {
+  opacity: 1;
+}
+
+.rightbig .cv {
+  color: #888888;
+  text-align: left;
+  padding-top: 2em;
+  display: block;
+}
+
+.rightbig .cv .years {
+  font-size: 14px;
+}
+
+.collapsible {
+  background: -webkit-gradient(linear, left top, right top, from(#3a3d3f), to(#4d4f52));
+  background: linear-gradient(to right, #3a3d3f, #4d4f52);
+  color: white;
+  cursor: pointer;
+  padding: 1.2em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#7e7e7e), to(#cccccc));
+  background: linear-gradient(to right, #7e7e7e, #cccccc);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.work {
+  padding-top: 1.2em;
+}
+
+.workcnt {
+  background: -webkit-gradient(linear, left top, right top, from(#3a3d3f), to(#4d4f52));
+  background: linear-gradient(to right, #3a3d3f, #4d4f52);
+  color: white;
+  padding: 1.2em;
+  font-size: 15px;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.workcnt .bigger {
+  font-size: 15px;
+  color: white;
+}
+
+.workcnt .workcntyear {
+  font-size: 12px;
+  color: gray;
+  padding-right: 2.5em;
+  width: 20%;
+}
+
+.workcnt .workcntyear .smalleryears {
+  font-size: 11px;
+}
+
+.workcnt .workdesc {
+  text-align: center;
+  width: 80%;
+}
+
+.workcnt .smallerdesc {
+  font-size: 11px;
+  color: gray;
+}
+
+.workcnt .smallerdesc2 {
+  font-size: 11px;
+  color: #dddddd;
+}
+
+.other {
+  background: -webkit-gradient(linear, left top, right top, from(#3a3d3f), to(#292c30));
+  background: linear-gradient(to right, #3a3d3f, #292c30);
+  color: white;
+  padding: 1.2em;
+  font-size: 15px;
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.other .otheryear {
+  font-size: 12px;
+  color: gray;
+  padding-right: 2.5em;
+  width: 20%;
+}
+
+.other .otheryear .bigger {
+  font-size: 15px;
+  color: white;
+}
+
+.other .otheryear .smalleryears {
+  font-size: 11px;
+}
+
+.other .otherdesc {
+  text-align: center;
+  width: 80%;
+}
+
+.other .smallerotherdesc {
+  font-size: 11px;
+  color: gray;
+}
+
+.other .smallerdesc2 {
+  font-size: 11px;
+  color: #dddddd;
+}
+
+.other .otherdescdriving {
+  text-align: center;
+  width: 80%;
+  padding-top: 2em;
+}
+
+footer {
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#42454b));
+  background: linear-gradient(to right, #2c2e30, #42454b);
+  height: 20vh;
+  text-align: center;
+}
+
+footer .int {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 2em;
+}
+
+footer .button2 {
+  visibility: visible;
+  background: white;
+  font-size: 0.9em;
+  border: 0;
+  border-radius: 25px;
+  height: 1.7em;
+  cursor: pointer;
+  color: #555454;
+  padding: 0.7em 1em;
+}
+
+footer .button2:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#2c2e30), to(#222324));
+  background: linear-gradient(to right, #2c2e30, #222324);
+  color: #6effe2;
+}
+
+footer .button2:hover::before {
+  opacity: 1;
+}
+
+.social-header {
+  display: none;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .hero {
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .profile {
+    padding-bottom: 2em;
+  }
+  .profile img {
+    padding: unset;
+    padding: 1em;
+  }
+  .leftbig {
+    width: 45%;
+  }
+  .imagine {
+    margin: 1.2em;
+    height: 60vh;
+    background: url("images/img.jpg");
+    background-size: cover;
+  }
+  .rightbig {
+    margin-right: 3em;
+    margin-top: 0;
+    margin-left: 2em;
+    width: 55%;
+    text-align: center;
+  }
+  .rightbig .bg {
+    height: 35vh;
+    background: url("images/bgpic1.jpg");
+    background-size: cover;
+  }
+  .rightbig .bg .insidebg {
+    background: url("images/bgpic2.jpg");
+    height: 28vh;
+    background-size: cover;
+    margin: 2em;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+  .nav-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+  }
+  .social-header {
+    display: block;
+    padding: 2em 4em 2em 0;
+  }
+  .social-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 15em;
+    margin-left: 3em;
+  }
+  .social-header ul img {
+    width: 28%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .leftbig {
+    width: 40%;
+  }
+  .imagine {
+    margin: 1.2em;
+    height: 55vh;
+    background: url("images/img.jpg");
+    background-size: cover;
+  }
+  .rightbig {
+    margin-right: 6em;
+    width: 60%;
+    text-align: center;
+  }
+  .rightbig .bg {
+    height: 35vh;
+    background: url("images/bgpic1.jpg");
+    background-size: cover;
+  }
+  .rightbig .bg .insidebg {
+    background: url("images/bgpic2.jpg");
+    height: 28vh;
+    background-size: cover;
+    margin: 2em;
+  }
+  header {
+    padding: 2em 2em 2em 10em;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .leftbig {
+    margin-left: 8em;
+    width: 37%;
+  }
+  .imagine {
+    margin: 1.2em;
+    height: 50vh;
+    background: url("images/img.jpg");
+    background-size: cover;
+  }
+  .rightbig {
+    margin-right: 8em;
+    width: 63%;
+    text-align: center;
+  }
+  .rightbig .bg {
+    height: 35vh;
+    background: url("images/bgpic1.jpg");
+    background-size: cover;
+    background-position-y: 65%;
+  }
+  .rightbig .bg .insidebg {
+    background: url("images/bgpic2.jpg");
+    height: 28vh;
+    background-size: cover;
+    background-position-y: 65%;
+    margin: 2em;
+  }
+  header {
+    padding: 2em 2em 2em 20em;
+  }
+  .imagine {
+    margin: 1.2em;
+    height: 51vh;
+    background: url("images/img.jpg");
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .leftbig {
+    margin-left: 14em;
+    width: 30%;
+  }
+  .rightbig {
+    margin-right: 14em;
+    width: 70%;
+    text-align: center;
+  }
+  .imagine {
+    display: block;
+    margin: 1.2em;
+    height: 42vh;
+    background: url("images/img.jpg");
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  nav a {
+    position: relative;
+    font-size: 0.775rem;
+  }
+  .logo {
+    color: #6effe2;
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=myskills.css.map */
