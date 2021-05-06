@@ -55,7 +55,7 @@ gsap.from('.transition3', {
 })
 
 ScrollTrigger.create({
-    start: 'top -15%',
+    start: 'top -50%',
     end: 99999,
     toggleClass: {
         className: 'button1--scrolled', targets: '.button1'

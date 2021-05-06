@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap");
-@import "circleprog";
 
 body {
     height: 100vh;
@@ -85,13 +84,14 @@ header {
 }
 
 .hero {
-    display: grid;
-    text-align: center;
-    padding-top: 1.5em;
+    display: flexbox;
 }
 
 .leftbig {
     background: linear-gradient(to right, #232526, #414345);
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .profile {
     background: linear-gradient(to right, #3a3d3f, #4d4f52);
@@ -123,9 +123,7 @@ header {
 
 .restul {
     background: linear-gradient(to right, #2c2e30, #42454b);
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 2em;
+    margin: 2em;
 }
 
 .despre {
@@ -236,6 +234,7 @@ header {
     display: grid;
     padding: 2em;
     text-align: center;
+
     .bg {
         height: 35vh;
         background: url("images/bgpic1.jpg");
@@ -253,7 +252,6 @@ header {
             }
 
             p {
-                width: 200px;
                 font-size: 1.1em;
                 overflow: hidden; /* Ensures the content is not revealed until the animation */
                 border-right: 0.15em solid orange; /* The typwriter cursor */
@@ -471,6 +469,7 @@ footer {
 
 @media only screen and (min-width: 800px) {
     .hero {
+        margin-top: 1.5em;
         margin-left: 3.5em;
         margin-right: 3.5em;
     }
@@ -664,16 +663,50 @@ footer {
 }
 
 @media only screen and (max-width: 490px) {
-    nav {
-        a {
-            position: relative;
-            font-size: 0.775rem;
+    header {
+        nav {
+            a {
+                padding-left: 0.5em;
+                margin-top: 0.2em;
+                font-size: 0.625rem;
+            }
+        }
+
+        .logo {
+            color: #6effe2;
+            font-size: 0.75rem;
+            font-weight: bold;
         }
     }
 
-    .logo {
-        color: #6effe2;
-        font-size: 0.85rem;
-        font-weight: bold;
+    .profile {
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .rightbig {
+        padding: 0;
+
+        .bg {
+            padding-left: 1em;
+            padding-right: 1em;
+            .insidebg {
+                margin: 0em;
+
+                .buttondiv {
+                    margin-top: 1em;
+                }
+            }
+        }
+    }
+
+    .restul {
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .outerimg {
+        margin: 0;
+        margin-top: 1em;
     }
 }

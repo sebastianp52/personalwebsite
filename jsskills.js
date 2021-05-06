@@ -1,7 +1,6 @@
-gsap.registerPlugin(ScrollTrigger);
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
+
 
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
@@ -16,9 +15,3 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
-ScrollTrigger.create({
-    start: 'bottom +5%',
-    toggleClass: {
-        className: 'transitionbtn--scrolled1', targets: '.transitionbtn'
-    }
-});
