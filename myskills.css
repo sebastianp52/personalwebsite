@@ -54,6 +54,15 @@ nav a:hover::before {
   opacity: 1;
 }
 
+nav a:active {
+  color: #f0ff6e;
+}
+
+#actv {
+  background-color: #6effe2;
+  color: #42454b;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;

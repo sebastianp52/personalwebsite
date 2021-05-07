@@ -58,6 +58,10 @@ nav a:hover::before {
   opacity: 1;
 }
 
+nav a:active {
+  color: #6effe2;
+}
+
 .rightside {
   display: none;
 }

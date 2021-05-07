@@ -50,8 +50,18 @@ nav {
                 opacity: 1;
             }
         }
+
+        &:active {
+            color: #f0ff6e;
+        }
     }
 }
+
+#actv {
+    background-color: #6effe2;
+    color: #42454b;
+}
+
 header {
     display: flex;
     justify-content: space-between;
