@@ -12,16 +12,16 @@
 
 <body>
 
-    <a href="hireme.html" class="transitionbtn" class="button2 stagger1"><img src="images/btnmesaj.svg">
+    <a href="hireme" class="transitionbtn" class="button2 stagger1"><img src="images/btnmesaj.svg">
 
     </a>
     <div class="nav-container" id="navc">
         <header>
-            <a href="index.html" class="logo">Pascale Sebastian</a>
+            <a href="home" class="logo">Pascale Sebastian</a>
             <nav>
                 <ul>
-                    <li><a id="actv" href="mywork.html" class="menu">my work</a></li>
-                    <li><a href="myskills.html" class="menu">my skills</a></li>
+                    <li><a id="actv" href="mywork" class="menu">my work</a></li>
+                    <li><a href="myskills" class="menu">my skills</a></li>
                     <li><a href="hireme" class="menu">hire me</a></li>
                 </ul>
             </nav>
@@ -75,7 +75,7 @@
 <footer>
 
     <p class="int">Interested in working with me?</p>
-    <a href="hireme.html" class="button2">Talk to me </a>
+    <a href="hireme" class="button2">Talk to me </a>
 
 </footer>
 

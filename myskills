@@ -13,16 +13,16 @@
 </head>
 
 <body>
-    <a href="hireme.html" class="transitionbtn" class="button2 stagger1"><img src="images/btnmesaj.svg">
+    <a href="hireme" class="transitionbtn" class="button2 stagger1"><img src="images/btnmesaj.svg">
 
     </a>
     <div class="nav-container">
         <header>
-            <a href="index.html" class="logo">Pascale Sebastian</a>
+            <a href="home" class="logo">Pascale Sebastian</a>
             <nav>
                 <ul>
-                    <li><a href="mywork.html" class="menu">my work</a></li>
-                    <li><a id="actv" href="myskills.html" class="menu">my skills</a></li>
+                    <li><a href="mywork" class="menu">my work</a></li>
+                    <li><a id="actv" href="myskills" class="menu">my skills</a></li>
                     <li><a href="hireme" class="menu">hire me</a></li>
                 </ul>
             </nav>
@@ -214,7 +214,7 @@
                     <h1>Discover my work</h1>
                     <p> Coding my way to success </p>
                     <div class="buttondiv">
-                        <a href="mywork.html" class="button1 stagger1">Explore now </a>
+                        <a href="mywork" class="button1 stagger1">Explore now </a>
                     </div>
                 </div>
             </div>
@@ -360,6 +360,6 @@
 
     <footer>
         <p class="int">Interested in working with me?</p>
-        <a href="hireme.html" class="button2">Talk to me </a>
+        <a href="hireme" class="button2">Talk to me </a>
     </footer>
 </body>

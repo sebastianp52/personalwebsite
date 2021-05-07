@@ -13,16 +13,16 @@
 </head>
 
 <body>
-    <a href="hireme.html" class="transitionbtn" class="button2 stagger1"><img src="images/btnmesaj.svg">
+    <a href="hireme" class="transitionbtn" class="button2 stagger1"><img src="images/btnmesaj.svg">
 
     </a>
     <div class="nav-container">
         <header>
-            <a href="index.html" class="logo">Pascale Sebastian</a>
+            <a href="home" class="logo">Pascale Sebastian</a>
             <nav>
                 <ul>
-                    <li><a href="mywork.html" class="menu">my work</a></li>
-                    <li><a href="myskills.html" class="menu">my skills</a></li>
+                    <li><a href="mywork" class="menu">my work</a></li>
+                    <li><a href="myskills" class="menu">my skills</a></li>
                     <li><a href="hireme" class="menu">hire me</a></li>
                 </ul>
             </nav>
@@ -60,7 +60,7 @@
                             transform="translate(753 584)" fill="#fff" />
                     </g>
                 </svg>
-                <a href="hireme.html" class="button1 stagger1">Talk to me </a>
+                <a href="hireme" class="button1 stagger1">Talk to me </a>
             </div>
         </div>
         <div class="rightside">
@@ -185,7 +185,7 @@
 
     <footer>
         <p class="int">Interested in working with me?</p>
-        <a href="hireme.html" class="button2">Talk to me </a>
+        <a href="hireme" class="button2">Talk to me </a>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
